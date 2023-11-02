@@ -3,7 +3,7 @@
 import openai
 
 def chat_gpt(query):
-    api_key = "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"  # 본인의 API 키로 대체
+    api_key = "API_KEY"  # 본인의 API 키로 대체
     openai.api_key = api_key
 
     response = openai.Completion.create(
